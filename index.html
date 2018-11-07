@@ -99,6 +99,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         background-color: #eeeeee;
       }
     </style>
+
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBwvCAQm6shX0HgDQlNmq6bb2br-naKV2M",
+        authDomain: "dunderjeep.firebaseapp.com",
+        databaseURL: "https://dunderjeep.firebaseio.com",
+        projectId: "firebase-dunderjeep",
+        storageBucket: "firebase-dunderjeep.appspot.com",
+        messagingSenderId: "765556903738"
+      };
+      firebase.initializeApp(config);
+    </script>
   </head>
   <body>
     <my-app></my-app>
@@ -106,5 +119,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       Please enable JavaScript to view this website.
     </noscript>
     <!-- Built with love using Polymer Starter Kit -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+
   </body>
 </html>
